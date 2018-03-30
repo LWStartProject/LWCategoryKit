@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LWCategoryKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Category Components focus in here'
 
 # This description is used to generate tags and improve search results.
