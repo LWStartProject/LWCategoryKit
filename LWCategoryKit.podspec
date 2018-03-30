@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here. describe this kit
                        DESC
 
-  s.homepage         = 'https://github.com/IOS6/LWCategoryKit'
+  s.homepage         = 'https://github.com/LWStartProject/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'IOS6' => '717572511@qq.com' }
-  s.source           = { :git => 'https://github.com/IOS6/LWCategoryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LWStartProject/LWCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
