@@ -45,7 +45,7 @@
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:radius];
     CGContextAddPath(c, path.CGPath);
     CGContextClip(c);
-    [image drawInRect:rect];
+    [self drawInRect:rect];
     CGContextDrawPath(c, kCGPathFillStroke);
     UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

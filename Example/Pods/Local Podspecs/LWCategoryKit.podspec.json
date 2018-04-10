@@ -1,6 +1,6 @@
 {
   "name": "LWCategoryKit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "Category Components focus in here",
   "description": "TODO: Add long description of the pod here. describe this kit",
   "homepage": "https://github.com/LWStartProject/",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LWStartProject/LWCategoryKit.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"

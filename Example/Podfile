@@ -13,7 +13,7 @@ end
 ## 提交组件流程
 # - git add .
 # - git commit -m “xxx"
-# - git remote add origin https://github.com/LWStartProject/LWCategoryKit.git (远程代码仓库地址)
+# - git remote add origin https://github.com/LWStartProject/LWCategoryKit.git (远程代码仓库地址)    如果已经添加，无需重复操作
 # - git push origin master
 # - git tag 版本号 （注：这里的版本号必须和podspec里写的版本号一致）
 # - git push --tags
