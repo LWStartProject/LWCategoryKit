@@ -1,9 +1,9 @@
 {
   "name": "LWCategoryKit",
-  "version": "0.1.0",
-  "summary": "A short description of LWCategoryKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/IOS6/LWCategoryKit",
+  "version": "0.1.3",
+  "summary": "Category Components focus in here",
+  "description": "TODO: Add long description of the pod here. describe this kit",
+  "homepage": "https://github.com/LWStartProject/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "IOS6": "717572511@qq.com"
   },
   "source": {
-    "git": "https://github.com/IOS6/LWCategoryKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LWStartProject/LWCategoryKit.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LWCategoryKit/Classes/**/*"
+  "source_files": "LWCategoryKit/Classes/Category/"
 }
