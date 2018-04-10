@@ -2,8 +2,8 @@
 //  UIImage+MHExtension.h
 //  WeChat
 //
-//  Created by CoderMikeHe on 2017/8/9.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Created by B_Boy on 2017/8/9.
+//  Copyright © 2017年 B_Boy. All rights reserved.
 //
 
 #import "UIImage+DXExtension.h"
@@ -35,4 +35,21 @@
         return image;
     }
 }
+
+- (UIImage *)dx_imageWithRadius:(CGFloat)radius {
+    
+    CGFloat scale = [UIScreen mainScreen].scale;
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, scale);
+    CGContextRef c = UIGraphicsGetCurrentContext();
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:radius];
+    CGContextAddPath(c, path.CGPath);
+    CGContextClip(c);
+    [image drawInRect:rect];
+    CGContextDrawPath(c, kCGPathFillStroke);
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return img;
+}
+
 @end

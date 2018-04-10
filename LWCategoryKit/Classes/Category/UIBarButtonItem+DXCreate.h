@@ -2,8 +2,8 @@
 //  UIBarButtonItem+MHExtension.m
 //  WeChat
 //
-//  Created by CoderMikeHe on 2017/7/24.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Created by B_Boy on 2017/7/24.
+//  Copyright © 2017年 B_Boy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

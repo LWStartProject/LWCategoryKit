@@ -2,8 +2,8 @@
 //  UIImage+MHExtension.h
 //  WeChat
 //
-//  Created by CoderMikeHe on 2017/8/9.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Created by B_Boy on 2017/8/9.
+//  Copyright © 2017年 B_Boy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,5 +18,8 @@
 
 /// 返回一张未被渲染的图片
 + (UIImage *)dx_imageAlwaysShowOriginalImageWithImageName:(NSString *)imageName;
+
+/// 绘制圆角图片
+- (UIImage *)dx_imageWithRadius:(CGFloat)radius;
 
 @end
